@@ -11,6 +11,8 @@
 		8F6693AC27AD6AAE005D3BC0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6693AB27AD6AAE005D3BC0 /* ContentView.swift */; };
 		8F6693AE27AD6AB0005D3BC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F6693AD27AD6AB0005D3BC0 /* Assets.xcassets */; };
 		8F6693B127AD6AB0005D3BC0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F6693B027AD6AB0005D3BC0 /* Preview Assets.xcassets */; };
+		8F6693B827AD6B04005D3BC0 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6693B727AD6B04005D3BC0 /* ViewModel.swift */; };
+		8F6693BA27AD6B6E005D3BC0 /* NotificationCenterDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6693B927AD6B6E005D3BC0 /* NotificationCenterDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		8F6693AB27AD6AAE005D3BC0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8F6693AD27AD6AB0005D3BC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8F6693B027AD6AB0005D3BC0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8F6693B727AD6B04005D3BC0 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		8F6693B927AD6B6E005D3BC0 /* NotificationCenterDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCenterDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				8F6693A927AD6AAE005D3BC0 /* NotificationApp.swift */,
 				8F6693AB27AD6AAE005D3BC0 /* ContentView.swift */,
+				8F6693B727AD6B04005D3BC0 /* ViewModel.swift */,
+				8F6693B927AD6B6E005D3BC0 /* NotificationCenterDelegate.swift */,
 				8F6693AD27AD6AB0005D3BC0 /* Assets.xcassets */,
 				8F6693AF27AD6AB0005D3BC0 /* Preview Content */,
 			);
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F6693BA27AD6B6E005D3BC0 /* NotificationCenterDelegate.swift in Sources */,
 				8F6693AC27AD6AAE005D3BC0 /* ContentView.swift in Sources */,
+				8F6693B827AD6B04005D3BC0 /* ViewModel.swift in Sources */,
 				8F6693AA27AD6AAE005D3BC0 /* NotificationApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

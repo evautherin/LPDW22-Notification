@@ -8,9 +8,15 @@
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject var model = ViewModel()
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack {
+            Text("Hello, world!")
+                .padding()
+            Button("Notify", action: NotificationCenterDelegate.notify)
+        }
+        .onAppear(perform: NotificationCenterDelegate.requestAuthorization)
     }
 }
 
